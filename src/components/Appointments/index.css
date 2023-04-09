@@ -1,0 +1,98 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 90%;
+  width: 50%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+  color: #171f46;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #b5b7c4;
+}
+
+.input {
+  width: 200px;
+  height: 40px;
+  border: 2px solid #b5b7c4;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.add-button {
+  height: 40px;
+  width: 80px;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  background-color: #8b5cf6;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.img {
+  width: 150px;
+}
+
+.line {
+  height: 2px;
+  color: #b5b7c4;
+}
+
+.head-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.started-button {
+  height: 40px;
+  width: 100px;
+  color: #9897f0;
+  border-radius: 10px;
+  border: 2px solid #9897f0;
+  background-color: #ffffff;
+}
+
+.appointments-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
